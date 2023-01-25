@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.i("myhello","Button clicked");
                 textView.setText("Hello Shubhanshu!!");
+                button.setText("Greeted !!");
             }
         });
     }
